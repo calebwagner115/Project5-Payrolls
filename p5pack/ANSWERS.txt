@@ -1,0 +1,52 @@
+PROBLEM 1: TESTING
+==================
+
+(10%) The correct implementation is: (fill in your answer below)
+
+
+imp #: 9
+
+--------------------------------------------------------------------------------
+
+KNOWN FAULTY IMPLEMENTATIONS (2, 8, 11)
+----------------------------
+
+(3%) Describe the general problems with imp2
+    The imp2 does not check to see if we are hiring a null named person.
+    Therefore the error that is thrown isn't a Null pointer exception.
+
+
+(3%) Describe the general problems with imp8
+    Imp8 has a problem with clearing the dict. It does not clear it because the size remains
+    at one after clearing the dict.
+
+
+(3%) Describe the general problems with imp11
+    The two issues in imp11 happen in giveRaise(double) that gives a raise to everyone and giving a raise to
+    just one person. Both of them do not throw the runtime exception when a negative raise is given.
+
+
+
+--------------------------------------------------------------------------------
+
+PROBLEM 2: DEBUGGING
+====================
+
+--------------------------------------------------------------------------------
+(55%) Include the command line you found to pass as many phases as
+possible. Include your NetID at the beginning.  To complete all
+phases, a total of 29 command line args including NetID are required.
+
+java DebugMe "cwagne" "-7" "8" "6" "3" "8" "62" "2" "3" "4" "2178" "diklopdiklop" "0" "6" "12" "5" "19" "1" "78" "4" "with great power comes a big electricity bill" "2" "1" "0" "10" "1" "1" "50" "4"
+
+
+--------------------------------------------------------------------------------
+(5%) Describe your experience using the debugger. What helped, what
+frustrated, and what lessons will you take forward? Limit your
+description to one to two paragraphs please.
+
+it helped because I put break points at each test and looked at the values. I modified the values
+to meet the requirements. I can see each individual step along the way and why I got certain errors. I got mad when
+when I skipped to far and had to restart the dedugger. I will always abide by the debugger.
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="testme">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/p5pack/testme" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/p5pack/testme/docs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/p5pack/testme" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/p5pack/testme" recursive="false" />
+  </library>
+</component>
